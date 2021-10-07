@@ -29,8 +29,10 @@ img {
 
 .card__titulo {
     text-align: center;
+    color: hsl(223, 47%, 23%);
     font-weight: 900;
     padding: 30px 0 10px 0;
+    font-size: 28px;
 }
 
 .card__conteudo {
@@ -39,6 +41,7 @@ img {
     font-size: 16px;
     display: block;
     padding: 0 20px;
+    font-weight: 500;
 }
 
 .card__planos {
@@ -61,8 +64,13 @@ img {
     padding-left: 26px;
 }
 
+.planos__tipo {
+    font-weight: 700;
+}
+
 .planos__preco {
     color: hsl(224, 23%, 55%);
+    font-weight: 500;
 }
 
 .link__container {
@@ -75,6 +83,7 @@ img {
     text-decoration: underline;
     color: hsl(245, 75%, 52%);
     width: 102px;
+    font-weight: 700;
 }
 
 .card__link:hover{
@@ -94,17 +103,18 @@ img {
     background: hsl(245, 75%, 52%);
     color: #fff;
     border-radius: 10px;
-    font-weight: bold;
+    font-weight: 700;
     width: 100%;
 }
 .btn__pagamento:hover {
     background:  hsl(245, 75%, 64%);
     color: #fff;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .btn__cancelar {
     margin: 10px 0px 40px;
+    font-weight: 700;
 }
 
 .btn__cancelar:hover {
